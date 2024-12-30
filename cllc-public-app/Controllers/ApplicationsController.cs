@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using System.Net.Http;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 using System.Web;
@@ -2103,6 +2104,5 @@ namespace Gov.Lclb.Cllb.Public.Controllers
                 _dynamicsClient.Serviceareas.Create(serviceArea);
             }
         }
-
     }
 }

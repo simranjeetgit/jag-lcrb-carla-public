@@ -26,7 +26,6 @@ import {
   faExclamationTriangle,
   faFlag,
   faPencilAlt,
-  faPrint,
   faQuestionCircle,
   faShoppingCart,
   faStopwatch,
@@ -69,7 +68,6 @@ export class SummaryComponent implements OnInit {
   faBolt = faBolt;
   faCheck = faCheck;
   faBan = faBan;
-  faPrint = faPrint;
   /**
    * Controls whether or not the form show the submit button.
    * The value true by default
